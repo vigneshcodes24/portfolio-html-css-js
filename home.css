@@ -1,0 +1,242 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+  
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+   
+}
+body{
+    font-family: 'Poppins', sans-serif;  
+    background-color: #000303;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* heder styles*/
+.wholeBagroundGif{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/IMAGES/Experimenting\ with\ planes\ and\ low-poly.gif);
+    background-size:cover;
+    background-position: center;
+}
+
+#dektopnav{
+    font-size: 20px;
+    
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    padding: 2.5%;
+}
+
+img{
+    border-radius: 50%;
+}
+nav , 
+.linksHeader{
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 2vh;
+}
+
+
+.linksHeader{
+ list-style: none;
+ font-size: 1.5em;
+ gap: 1em;
+ color: #050400;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-decoration-color: #232D3F;
+}
+
+a:hover{
+    color: #37306B;
+    text-decoration: none;
+    text-underline-offset: 1rem;
+}
+
+
+.logo:hover{
+    cursor: default;
+}
+
+h4{
+    text-align: center;
+    font-size: 30px;
+}
+
+h4 span{
+    font-size: 35px;
+    color: #37306B;
+    font-style: italic;
+}
+h1{
+    font-size: 40px;
+    padding-left: 3%;
+}
+
+h1 span{
+    color: #37306B;
+}
+
+p{
+    font-size: 30px;
+    margin-top: 20px; 
+    padding-left: 3%;
+}
+.headerText{
+    padding: 40px;
+    margin-top: 20%;
+    font-size: 20px;
+   
+}
+ #about{
+    padding: 40px;
+    margin-top: 20%;
+    font-size: 20px;
+}
+
+#experience{
+    padding: 40px;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+#project{
+    padding: 40px;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+#Skill{
+    padding: 40px;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+#contact {
+    padding: 40px;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.explist{
+    font-size: 30px;
+    margin-top: 20px; 
+    padding-left: 3%;
+}
+
+.skillset{
+    font-size: 30px;
+    margin-top: 20px; 
+    padding-left: 3%;
+}
+
+li span {
+    color: #606C5D;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    color: #37306B;
+
+}
+
+h3{
+    font-size: 30px;
+    margin-top: 20px; 
+    padding-left: 3%;
+}
+
+input {
+ width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(70, 68, 68);    
+  border-radius: 10px;    
+  resize: vertical;  
+}
+form{
+    border-radius: 20%;
+}
+
+button{
+    background-color: #37306B; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    color: #000303;
+}
+.frmbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; 
+    
+}
+.scrollbtn{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;  
+}
+
+footer{
+    background-color: #37306B;
+    
+   text-align: center;
+   padding: 40px;
+    margin-top: 10%;
+    font-size: 30px;  
+}
+
+
+img{
+    white-space: nowrap; 
+    width:  200px;
+    height: 200px;
+    
+}
+.imagecontainer{
+display: flex;
+overflow-x :  scroll;
+gap: 70px;
+}
+
+::-webkit-scrollbar {
+    width: auto;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: black;
+  }
